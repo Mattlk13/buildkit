@@ -4,10 +4,10 @@ go 1.16
 
 require (
 	github.com/Microsoft/go-winio v0.4.17
-	github.com/Microsoft/hcsshim v0.8.16
+	github.com/Microsoft/hcsshim v0.8.18
 	github.com/containerd/aufs v1.0.0
 	github.com/containerd/btrfs v1.0.0
-	github.com/containerd/cgroups v1.0.0
+	github.com/containerd/cgroups v1.0.1
 	github.com/containerd/console v1.0.2
 	github.com/containerd/continuity v0.1.0
 	github.com/containerd/fifo v1.0.0
@@ -46,6 +46,8 @@ require (
 	github.com/pelletier/go-toml v1.8.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.7.1
+	github.com/prometheus/procfs v0.6.0 // indirect; temporarily force v0.6.0, which was previously defined in imgcrypt as explicit version
+	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.7.0
 	github.com/stretchr/testify v1.6.1
 	github.com/tchap/go-patricia v2.2.6+incompatible
@@ -68,6 +70,9 @@ require (
 
 // When updating replace rules, make sure to also update the rules in integration/client/go.mod
 replace (
+	// prevent transitional dependencies due to containerd having a circular
+	// dependency on itself through plugins. see .empty-mod/go.mod for details
+	github.com/containerd/containerd => ./.empty-mod/
 	github.com/gogo/googleapis => github.com/gogo/googleapis v1.3.2
 	github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
 	// urfave/cli must be <= v1.22.1 due to a regression: https://github.com/urfave/cli/issues/1092
