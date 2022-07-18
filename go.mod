@@ -17,7 +17,7 @@ require (
 	github.com/containerd/typeurl v1.0.2
 	github.com/coreos/go-systemd/v22 v22.1.0
 	github.com/docker/cli v20.10.5+incompatible
-	github.com/docker/distribution v2.7.1+incompatible
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/docker v20.10.5+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/libnetwork v0.8.0-dev.2.0.20201215162534-fa125a3512ee
