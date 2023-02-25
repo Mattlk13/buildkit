@@ -59,10 +59,10 @@ require (
 	github.com/uber/jaeger-lib v2.2.0+incompatible // indirect
 	github.com/urfave/cli v1.22.2
 	go.etcd.io/bbolt v1.3.5
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20210324051608-47abb6519492
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.7.0
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
+	golang.org/x/sys v0.5.0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	// genproto: the actual version is replaced in replace()
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
