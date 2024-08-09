@@ -7,7 +7,7 @@ require (
 	github.com/Microsoft/go-winio v0.4.17
 	github.com/Microsoft/hcsshim v0.8.16
 	github.com/codahale/hdrhistogram v0.0.0-20160425231609-f8ad88b59a58 // indirect
-	github.com/containerd/console v1.0.2
+	github.com/containerd/console v1.0.3
 	github.com/containerd/containerd v1.5.0-rc.2
 	github.com/containerd/continuity v0.1.0
 	github.com/containerd/fuse-overlayfs-snapshotter v1.0.2
@@ -15,9 +15,9 @@ require (
 	github.com/containerd/go-runc v1.0.0
 	github.com/containerd/stargz-snapshotter v0.4.1
 	github.com/containerd/typeurl v1.0.2
-	github.com/coreos/go-systemd/v22 v22.1.0
-	github.com/docker/cli v20.10.5+incompatible
-	github.com/docker/distribution v2.7.1+incompatible
+	github.com/coreos/go-systemd/v22 v22.3.2
+	github.com/docker/cli v20.10.9+incompatible
+	github.com/docker/distribution v2.8.2+incompatible
 	github.com/docker/docker v20.10.5+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/libnetwork v0.8.0-dev.2.0.20201215162534-fa125a3512ee
@@ -25,8 +25,8 @@ require (
 	github.com/gogo/googleapis v1.4.0
 	github.com/gogo/protobuf v1.3.2
 	// protobuf: the actual version is replaced in replace()
-	github.com/golang/protobuf v1.4.3
-	github.com/google/go-cmp v0.5.4
+	github.com/golang/protobuf v1.5.0
+	github.com/google/go-cmp v0.5.5
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.0
@@ -42,16 +42,16 @@ require (
 	github.com/moby/term v0.0.0-20201110203204-bea5bbe245bf // indirect
 	github.com/morikuni/aec v1.0.0
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.0.1
-	github.com/opencontainers/runc v1.0.0-rc93
-	github.com/opencontainers/runtime-spec v1.0.3-0.20200929063507-e6143ca7d51d
-	github.com/opencontainers/selinux v1.8.0
+	github.com/opencontainers/image-spec v1.0.2
+	github.com/opencontainers/runc v1.1.12
+	github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
+	github.com/opencontainers/selinux v1.10.0
 	github.com/opentracing-contrib/go-stdlib v1.0.0
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/pkg/errors v0.9.1
 	github.com/pkg/profile v1.5.0
 	github.com/serialx/hashring v0.0.0-20190422032157-8b2912629002
-	github.com/sirupsen/logrus v1.7.0
+	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
 	github.com/tonistiigi/fsutil v0.0.0-20201103201449-0834f99b7b85
 	github.com/tonistiigi/units v0.0.0-20180711220420-6950e57a87ea
@@ -59,10 +59,10 @@ require (
 	github.com/uber/jaeger-lib v2.2.0+incompatible // indirect
 	github.com/urfave/cli v1.22.2
 	go.etcd.io/bbolt v1.3.5
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
-	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
-	golang.org/x/sync v0.0.0-20201207232520-09787c993a3a
-	golang.org/x/sys v0.0.0-20210324051608-47abb6519492
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.8.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.6.0
 	golang.org/x/time v0.0.0-20200630173020-3af7569d3a1e
 	// genproto: the actual version is replaced in replace()
 	google.golang.org/genproto v0.0.0-20201110150050-8816d57aaa9a
